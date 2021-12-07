@@ -1,0 +1,66 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net6.0</TargetFramework>
+    <Nullable>enable</Nullable>
+
+    <IsPackable>false</IsPackable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.NET.Test.Sdk" Version="16.11.0" />
+    <PackageReference Include="MSTest.TestAdapter" Version="2.2.7" />
+    <PackageReference Include="MSTest.TestFramework" Version="2.2.7" />
+    <PackageReference Include="coverlet.collector" Version="3.1.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Amphipod2\23 Amphipod2.csproj" />
+    <ProjectReference Include="..\Amphipod\23 Amphipod.csproj" />
+    <ProjectReference Include="..\BeaconScanner2\19 BeaconScanner2.csproj" />
+    <ProjectReference Include="..\BeaconScanner\19 BeaconScanner.csproj" />
+    <ProjectReference Include="..\Chiton2\15 Chiton2.csproj" />
+    <ProjectReference Include="..\Chiton\15 Chiton.csproj" />
+    <ProjectReference Include="..\DiracDice2\21 DiracDice2.csproj" />
+    <ProjectReference Include="..\DiracDice\21 DiracDice.csproj" />
+    <ProjectReference Include="..\ExtendedPolymerization2\14 ExtendedPolymerization2.csproj" />
+    <ProjectReference Include="..\ExtendedPolymerization\14 ExtendedPolymerization.csproj" />
+    <ProjectReference Include="..\PacketDecoder2\16 PacketDecoder2.csproj" />
+    <ProjectReference Include="..\PacketDecoder\16 PacketDecoder.csproj" />
+    <ProjectReference Include="..\ReactorReboot2\22 ReactorReboot2.csproj" />
+    <ProjectReference Include="..\ReactorReboot\22 ReactorReboot.csproj" />
+    <ProjectReference Include="..\SeaCucumber\25 SeaCucumber.csproj" />
+    <ProjectReference Include="..\Snailfish2\18 Snailfish2.csproj" />
+    <ProjectReference Include="..\Snailfish\18 Snailfish.csproj" />
+    <ProjectReference Include="..\SonarSweep\01 SonarSweep.csproj" />
+    <ProjectReference Include="..\SonarSweep2\01 SonarSweep2.csproj" />
+    <ProjectReference Include="..\PassagePathing2\12 PassagePathing2.csproj" />
+    <ProjectReference Include="..\PassagePathing\12 PassagePathing.csproj" />
+    <ProjectReference Include="..\Dive\02 Dive.csproj" />
+    <ProjectReference Include="..\Dive2\02 Dive2.csproj" />
+    <ProjectReference Include="..\BinaryDiagnostic\03 BinaryDiagnostic.csproj" />
+    <ProjectReference Include="..\BinaryDiagnostic2\03 BinaryDiagnostic2.csproj" />
+    <ProjectReference Include="..\GiantSquid2\04 GiantSquid2.csproj" />
+    <ProjectReference Include="..\GiantSquid\04 GiantSquid.csproj" />
+    <ProjectReference Include="..\HydrothermalVenture2\05 HydrothermalVenture2.csproj" />
+    <ProjectReference Include="..\HydrothermalVenture\05 HydrothermalVenture.csproj" />
+    <ProjectReference Include="..\Lanternfish2\06 Lanternfish2.csproj" />
+    <ProjectReference Include="..\Lanternfish\06 Lanternfish.csproj" />
+    <ProjectReference Include="..\TransparentOrigami\13 TransparentOrigami.csproj" />
+    <ProjectReference Include="..\TreacheryOfWhales2\07 TreacheryOfWhales2.csproj" />
+    <ProjectReference Include="..\TreacheryOfWhales\07 TreacheryOfWhales.csproj" />
+    <ProjectReference Include="..\SevenSegmentSearch2\08 SevenSegmentSearch2.csproj" />
+    <ProjectReference Include="..\SevenSegmentSearch\08 SevenSegmentSearch.csproj" />
+    <ProjectReference Include="..\SmokeBasin2\09 SmokeBasin2.csproj" />
+    <ProjectReference Include="..\SmokeBasin\09 SmokeBasin.csproj" />
+    <ProjectReference Include="..\SyntaxScoring2\10 SyntaxScoring2.csproj" />
+    <ProjectReference Include="..\SyntaxScoring\10 SyntaxScoring.csproj" />
+    <ProjectReference Include="..\DumboOctopus2\11 DumboOctopus2.csproj" />
+    <ProjectReference Include="..\DumboOctopus\11 DumboOctopus.csproj" />
+    <ProjectReference Include="..\TrenchMap2\20 TrenchMap2.csproj" />
+    <ProjectReference Include="..\TrenchMap\20 TrenchMap.csproj" />
+    <ProjectReference Include="..\TrickShot2\17 TrickShot2.csproj" />
+    <ProjectReference Include="..\TrickShot\17 TrickShot.csproj" />
+  </ItemGroup>
+
+</Project>
